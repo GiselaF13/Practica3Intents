@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MENU"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <EditText
+        android:id="@+id/edt_msj"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        />
+
+    <RadioButton
+        android:id="@+id/radioButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Arroz Chaufa"
+        android:checked="false"/>
+
+    <RadioButton
+        android:id="@+id/radioButton2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Picante"
+        android:checked="false"/>
+
+    <RadioButton
+        android:id="@+id/radioButton3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Arroz con Pollo"
+        android:checked="false"/>
+
+    <RadioButton
+        android:id="@+id/radioButton4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chicharron de pollo"
+        android:checked="false"/>
+
+    <RadioButton
+        android:id="@+id/radioButton5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Papa a la Huancaina"
+        android:checked="false"/>
+
+    <RadioButton
+        android:id="@+id/radioButton6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rocoto relleno"
+        android:checked="false"/>
+
+    <RadioButton
+        android:id="@+id/radioButton7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Aji de  gallina"
+        android:checked="false"/>
+
+    <RadioButton
+        android:id="@+id/radioButton8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Caja China"
+        android:checked="false"/>
+
+    <RadioButton
+        android:id="@+id/radioButton9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lomo saltado"
+        android:checked="false"/>
+
+    <RadioButton
+        android:id="@+id/radioButton10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Adobo"
+        android:checked="false"/>
+
+    <Button
+        android:id="@+id/btnenviar"
+        android:layout_width="114dp"
+        android:layout_height="wrap_content"
+        android:text="ENVIAR" />
+
+
+</LinearLayout>
